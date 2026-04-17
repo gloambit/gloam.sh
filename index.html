@@ -454,14 +454,15 @@
                 <div>
                     <span class="comment">#!/usr/bin/env gloambit</span><br>
                     <span class="prompt">$</span> <span class="cmd">whoami</span><br>
-                    <span class="output">security engineer / learning to build</span><br>
+                    <span class="output">soc analyst // learning to build</span><br>
                     <br>
-                    <span class="prompt">$</span> <span class="cmd">cat</span> <span class="arg">stack.toml</span><br>
-                    <span class="output">learning = [</span><span class="flag">"rust"</span><span class="output">,</span> <span class="flag">"go"</span><span class="output">,</span> <span class="flag">"python"</span><span class="output">]</span><br>
-                    <span class="output">status  = </span><span class="flag">"day four"</span><br>
+                    <span class="prompt">$</span> <span class="cmd">cat</span> <span class="arg">currently.txt</span><br>
+                    <span class="output">detection engineering, x86 asm,</span><br>
+                    <span class="output">computer architecture, and whatever</span><br>
+                    <span class="output">else catches fire</span><br>
                     <br>
-                    <span class="prompt">$</span> <span class="cmd">echo</span> <span class="arg">$STATUS</span><br>
-                    <span class="output">building in the gloaming</span><span class="cursor"></span>
+                    <span class="prompt">$</span> <span class="cmd">ls</span> <span class="arg">./projects/</span><br>
+                    <span class="output">detection-rules/</span><span class="cursor"></span>
                 </div>
             </div>
 
@@ -476,6 +477,26 @@
                 </a>
             </div>
 
+            <div class="scroll-hint">
+                <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+
+        </section>
+
+        <section class="projects">
+            <div class="section-label">projects</div>
+
+            <a class="project-card" href="https://github.com/gloambit/detection-rules" target="_blank" rel="noopener">
+                <div class="project-header">
+                    <span class="project-name">detection-rules</span>
+                    <span class="project-tag">sigma / yara</span>
+                </div>
+                <p class="project-desc">Sigma and YARA rules mapped to MITRE ATT&CK. Writing these to learn detection engineering properly — starting from scratch, no shortcuts.</p>
+                <div class="project-meta">
+                    <span><span class="dot" style="background:var(--purple)"></span>YAML</span>
+                    <span>work in progress</span>
+                </div>
+            </a>
         </section>
     </div>
 
